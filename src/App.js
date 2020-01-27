@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import './Navbar'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <p>
 Easy ATM Solutions
         </p>
+        <Navbar />
       </header>
     </div>
   );
